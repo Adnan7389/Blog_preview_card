@@ -1,0 +1,36 @@
+/*  */
+
+@media (max-width: 425px) {
+  .container {
+    max-width: 340px;
+  }
+
+  .link-heading:link,
+  .link-heading:visited {
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 0.2px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 365px) {
+  .container {
+    max-width: 300px;
+  }
+
+  .link-heading:link,
+  .link-heading:visited {
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: 0.2px;
+  }
+
+  .description {
+    font-size: 12px;
+    letter-spacing: 0.6px;
+  }
+}
