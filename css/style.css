@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
 body {
   font-family: "Figtree", sans-serif;
   font-weight: 400;
@@ -19,46 +24,46 @@ body {
 }
 
 .container {
-  max-width: 400px;
+  max-width: 40rem;
   background-color: hsl(0, 0%, 100%);
-  padding: 20px;
+  padding: 2rem;
   border: 1.5px solid hsl(0, 0%, 0%);
-  border-radius: 20px;
+  border-radius: 2rem;
   box-shadow: 6px 6px 0px hsl(0, 0%, 7%);
 }
 
 .illustration img {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 1rem;
 }
 
 .sub-heading {
   display: inline-block;
   background-color: hsl(47, 88%, 63%);
-  margin: 20px 0 16px 0;
-  padding: 6px 12px;
-  border-radius: 5px;
+  margin: 2rem 0 1.6rem 0;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.5rem;
   color: hsl(0, 0%, 0%);
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 800;
 }
 
 .published-date {
-  margin-bottom: 15px;
+  margin-bottom: 1.5rem;
   color: hsl(0, 0%, 42%);
   font-size: 1;
   font-weight: 600;
 }
 
 .secondary-heading {
-  margin-bottom: 18px;
+  margin-bottom: 1.8rem;
 }
 
 .link-heading:link,
 .link-heading:visited {
   text-decoration: none;
   color: hsl(0, 0%, 7%);
-  font-size: 26px;
+  font-size: 2.6rem;
   font-weight: 800;
   line-height: 1.2;
   letter-spacing: 0.4px;
@@ -70,9 +75,9 @@ body {
 }
 
 .description {
-  margin-bottom: 20px;
-  font-size: 18px;
-  font-weight: 600px;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+  font-weight: 600;
   color: hsl(0, 0%, 38%);
   line-height: 1.5;
 }
@@ -80,13 +85,13 @@ body {
 .author {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 1rem;
 }
 
 .author-img img {
   display: block;
-  width: 36px;
-  height: 36px;
+  width: 3.6rem;
+  height: 3.6rem;
 }
 .author-name {
   color: hsl(0, 0%, 7%);
@@ -94,8 +99,8 @@ body {
 }
 
 .attribution {
-  margin-top: 20px;
-  font-size: 11px;
+  margin-top: 2rem;
+  font-size: 1.1rem;
   text-align: center;
 }
 .attribution a {

@@ -1,36 +1,36 @@
 /*  */
 
-@media (max-width: 425px) {
+@media (max-width: 42.5rem) {
   .container {
-    max-width: 340px;
+    max-width: 34rem;
   }
 
   .link-heading:link,
   .link-heading:visited {
-    font-size: 18px;
+    font-size: 1.8rem;
     line-height: 1.2;
     letter-spacing: 0.2px;
   }
 
   .description {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
 }
 
-@media (max-width: 365px) {
+@media (max-width: 36.5rem) {
   .container {
-    max-width: 300px;
+    max-width: 30rem;
   }
 
   .link-heading:link,
   .link-heading:visited {
-    font-size: 18px;
+    font-size: 1.8rem;
     line-height: 1;
     letter-spacing: 0.2px;
   }
 
   .description {
-    font-size: 12px;
+    font-size: 1.2rem;
     letter-spacing: 0.6px;
   }
 }
